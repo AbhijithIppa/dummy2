@@ -31,3 +31,4 @@ app.include_router(get_chunk_router, prefix="/repo", tags=["repo"])
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+    print("hii")
